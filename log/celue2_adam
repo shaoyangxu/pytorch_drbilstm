@@ -1,0 +1,96 @@
+2020-12-14 15:12:02,254 - INFO - [31mNamespace(batch_size=128, checkpoint_path='celue2_adam', dropout=0.4, embedding_dropout=0.3, embeddings='data/embeddings.pkl', epochs=100, hidden_size=450, load_from=False, local_rank=-1, lr=0.0004, max_gradient_norm=10.0, multimodel=False, num_classes=3, num_layer=1, optim='adam', patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='result/celue2_adam', seed=0, test_data='data/test_data.pkl', test_statistics='data/test_statistics.pkl', train_data='data/train_data.pkl', valid_data='data/dev_data.pkl')[0m
+2020-12-14 15:12:02,254 - INFO - ==================== Preparing for training ====================
+2020-12-14 15:12:02,254 - INFO - 	* Loading training data...
+2020-12-14 15:12:19,408 - INFO - 	* Loading validation data...
+2020-12-14 15:12:19,784 - INFO - 	* Building model...
+2020-12-14 15:12:26,690 - INFO - total_num:28802553 trainable_num:28802553
+2020-12-14 15:12:26,690 - INFO - 
+====================Training model on device: cuda:0====================
+2020-12-14 15:12:26,691 - INFO - * Training epoch 1:
+2020-12-14 15:12:40,187 - INFO - [31mNamespace(batch_size=128, checkpoint_path='celue2_adam', dropout=0.4, embedding_dropout=0.3, embeddings='data/embeddings.pkl', epochs=100, hidden_size=450, load_from=False, local_rank=-1, lr=0.0004, max_gradient_norm=10.0, multimodel=False, num_classes=3, num_layer=1, optim='adam', patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='result/celue2_adam', seed=0, test_data='data/test_data.pkl', test_statistics='data/test_statistics.pkl', train_data='data/train_data.pkl', valid_data='data/dev_data.pkl')[0m
+2020-12-14 15:12:40,188 - INFO - ==================== Preparing for training ====================
+2020-12-14 15:12:40,188 - INFO - 	* Loading training data...
+2020-12-14 15:12:57,849 - INFO - 	* Loading validation data...
+2020-12-14 15:12:58,239 - INFO - 	* Building model...
+2020-12-14 15:13:03,558 - INFO - total_num:28802553 trainable_num:28802553
+2020-12-14 15:13:03,559 - INFO - 
+====================Training model on device: cuda:0====================
+2020-12-14 15:13:03,559 - INFO - * Training epoch 1:
+2020-12-14 15:13:26,835 - INFO - [31mNamespace(batch_size=128, checkpoint_path='celue2_adam', dropout=0.4, embedding_dropout=0.3, embeddings='data/embeddings.pkl', epochs=100, hidden_size=450, load_from=False, local_rank=-1, lr=0.0004, max_gradient_norm=10.0, multimodel=False, num_classes=3, num_layer=1, optim='adam', patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='result/celue2_adam', seed=0, test_data='data/test_data.pkl', test_statistics='data/test_statistics.pkl', train_data='data/train_data.pkl', valid_data='data/dev_data.pkl')[0m
+2020-12-14 15:13:26,835 - INFO - ==================== Preparing for training ====================
+2020-12-14 15:13:26,835 - INFO - 	* Loading training data...
+2020-12-14 15:13:42,386 - INFO - 	* Loading validation data...
+2020-12-14 15:13:42,741 - INFO - 	* Building model...
+2020-12-14 15:13:47,475 - INFO - total_num:28802553 trainable_num:28802553
+2020-12-14 15:13:47,476 - INFO - 
+====================Training model on device: cuda:0====================
+2020-12-14 15:13:47,476 - INFO - * Training epoch 1:
+2020-12-14 15:29:09,218 - INFO - Training epoch: 1, time: 921.7416s, loss: 0.6140, accuracy: 74.3035%
+
+2020-12-14 15:29:09,219 - INFO - * Validation for epoch 1:
+2020-12-14 15:29:13,738 - INFO - Validing epoch: 1, time: 4.5183s, loss: 0.4136, accuracy: 83.9057%
+
+2020-12-14 15:29:14,136 - INFO - * Training epoch 2:
+2020-12-14 15:44:35,189 - INFO - Training epoch: 2, time: 921.0526s, loss: 0.4465, accuracy: 82.7791%
+
+2020-12-14 15:44:35,196 - INFO - * Validation for epoch 2:
+2020-12-14 15:44:39,831 - INFO - Validing epoch: 2, time: 4.6344s, loss: 0.3750, accuracy: 85.8464%
+
+2020-12-14 15:44:40,212 - INFO - * Training epoch 3:
+2020-12-14 15:59:52,557 - INFO - Training epoch: 3, time: 912.3435s, loss: 0.3977, accuracy: 84.9571%
+
+2020-12-14 15:59:52,557 - INFO - * Validation for epoch 3:
+2020-12-14 15:59:57,290 - INFO - Validing epoch: 3, time: 4.7322s, loss: 0.3527, accuracy: 86.9742%
+
+2020-12-14 15:59:57,676 - INFO - * Training epoch 4:
+2020-12-14 16:15:19,869 - INFO - Training epoch: 4, time: 922.1927s, loss: 0.3641, accuracy: 86.4102%
+
+2020-12-14 16:15:19,870 - INFO - * Validation for epoch 4:
+2020-12-14 16:15:24,392 - INFO - Validing epoch: 4, time: 4.5218s, loss: 0.3417, accuracy: 87.5533%
+
+2020-12-14 16:15:24,819 - INFO - * Training epoch 5:
+2020-12-14 16:30:47,786 - INFO - Training epoch: 5, time: 922.9661s, loss: 0.3386, accuracy: 87.4792%
+
+2020-12-14 16:30:47,787 - INFO - * Validation for epoch 5:
+2020-12-14 16:30:52,356 - INFO - Validing epoch: 5, time: 4.5689s, loss: 0.3364, accuracy: 87.6651%
+
+2020-12-14 16:30:52,982 - INFO - * Training epoch 6:
+2020-12-14 16:46:14,772 - INFO - Training epoch: 6, time: 921.7891s, loss: 0.3176, accuracy: 88.3358%
+
+2020-12-14 16:46:14,773 - INFO - * Validation for epoch 6:
+2020-12-14 16:46:19,420 - INFO - Validing epoch: 6, time: 4.6463s, loss: 0.3360, accuracy: 87.8785%
+
+2020-12-14 16:46:19,803 - INFO - * Training epoch 7:
+2020-12-14 17:01:44,652 - INFO - Training epoch: 7, time: 924.8478s, loss: 0.2996, accuracy: 89.0845%
+
+2020-12-14 17:01:44,653 - INFO - * Validation for epoch 7:
+2020-12-14 17:01:49,225 - INFO - Validing epoch: 7, time: 4.5716s, loss: 0.3355, accuracy: 87.7870%
+
+2020-12-14 17:01:49,226 - INFO - * Training epoch 8:
+2020-12-14 17:17:11,295 - INFO - Training epoch: 8, time: 922.0691s, loss: 0.2665, accuracy: 90.4597%
+
+2020-12-14 17:17:11,296 - INFO - * Validation for epoch 8:
+2020-12-14 17:17:15,904 - INFO - Validing epoch: 8, time: 4.6078s, loss: 0.3328, accuracy: 88.4068%
+
+2020-12-14 17:17:16,397 - INFO - * Training epoch 9:
+2020-12-14 17:32:35,173 - INFO - Training epoch: 9, time: 918.7751s, loss: 0.2518, accuracy: 90.9944%
+
+2020-12-14 17:32:35,174 - INFO - * Validation for epoch 9:
+2020-12-14 17:32:39,798 - INFO - Validing epoch: 9, time: 4.6236s, loss: 0.3343, accuracy: 88.2443%
+
+2020-12-14 17:32:39,798 - INFO - * Training epoch 10:
+2020-12-14 17:47:55,820 - INFO - Training epoch: 10, time: 916.0210s, loss: 0.2329, accuracy: 91.6992%
+
+2020-12-14 17:47:55,820 - INFO - * Validation for epoch 10:
+2020-12-14 17:48:00,469 - INFO - Validing epoch: 10, time: 4.6480s, loss: 0.3447, accuracy: 88.3865%
+
+2020-12-14 17:48:00,469 - INFO - * Training epoch 11:
+2020-12-14 18:03:13,995 - INFO - Training epoch: 11, time: 913.5248s, loss: 0.2215, accuracy: 92.1477%
+
+2020-12-14 18:03:13,995 - INFO - * Validation for epoch 11:
+2020-12-14 18:03:18,511 - INFO - Validing epoch: 11, time: 4.5149s, loss: 0.3474, accuracy: 88.3154%
+
+2020-12-14 18:03:18,511 - INFO - -> Early stopping: patience limit reached, stopping...
+2020-12-14 18:03:18,851 - INFO - -> Test : Loadding model from result/celue2_adam/best.pth.tar
+2020-12-14 18:03:21,549 - INFO - ==================== Testing model on device: cuda:0 ====================
+2020-12-14 18:03:28,249 - INFO - -> Average batch processing time: 0.0558s, total test time: 6.6994s, accuracy: 87.9479%

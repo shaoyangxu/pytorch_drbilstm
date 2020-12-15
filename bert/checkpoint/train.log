@@ -1,0 +1,438 @@
+2020-12-01 00:51:45,210 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, local_rank=-1, lr=0.0004, max_gradient_norm=10.0, model='bert', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/max_avg_max_avg', seed=0, test_data='preprocessed_data/test_data.pkl', train_data='preprocessed_data/train_data.pkl', valid_data='preprocessed_data/dev_data.pkl')[0m
+2020-12-01 00:52:24,086 - INFO - ==================== Preparing for training ====================
+2020-12-01 00:52:24,086 - INFO - 	* Loading training data...
+2020-12-01 00:59:47,168 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, local_rank=-1, lr=0.0004, max_gradient_norm=10.0, model='bert', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/max_avg_max_avg', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/dev_data.pkl')[0m
+2020-12-01 01:00:21,395 - INFO - ==================== Preparing for training ====================
+2020-12-01 01:00:21,395 - INFO - 	* Loading training data...
+2020-12-01 01:00:53,971 - INFO - 	* Loading validation data...
+2020-12-01 01:00:57,863 - INFO - 	* Building model...
+2020-12-01 01:02:33,460 - INFO - 
+====================Training model on device: cuda:0====================
+2020-12-01 01:02:33,461 - INFO - * Training epoch 1:
+2020-12-01 01:05:11,354 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, local_rank=-1, lr=0.0004, max_gradient_norm=10.0, model='bert', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/max_avg_max_avg', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/dev_data.pkl')[0m
+2020-12-01 01:06:01,760 - INFO - ==================== Preparing for training ====================
+2020-12-01 01:06:01,760 - INFO - 	* Loading training data...
+2020-12-01 01:06:42,359 - INFO - 	* Loading validation data...
+2020-12-01 01:06:46,190 - INFO - 	* Building model...
+2020-12-01 01:07:36,897 - INFO - 
+====================Training model on device: cuda:0====================
+2020-12-01 01:07:36,898 - INFO - * Training epoch 1:
+2020-12-01 01:12:05,228 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, local_rank=0, lr=0.0004, max_gradient_norm=10.0, model='bert', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/max_avg_max_avg', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/dev_data.pkl')[0m
+2020-12-01 01:12:16,348 - INFO - ==================== Preparing for training ====================
+2020-12-01 01:12:16,348 - INFO - 	* Loading training data...
+2020-12-01 01:12:35,145 - INFO - 	* Loading validation data...
+2020-12-01 01:12:35,506 - INFO - 	* Building model...
+2020-12-01 01:12:42,433 - INFO - 
+====================Training model on device: 0====================
+2020-12-01 01:12:42,434 - INFO - * Training epoch 1:
+2020-12-01 01:34:05,961 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, local_rank=0, lr=0.0004, max_gradient_norm=10.0, model='bert', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/max_avg_max_avg', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/dev_data.pkl')[0m
+2020-12-01 01:34:12,746 - INFO - ==================== Preparing for training ====================
+2020-12-01 01:34:12,746 - INFO - 	* Loading training data...
+2020-12-01 01:34:30,954 - INFO - 	* Loading validation data...
+2020-12-01 01:34:31,392 - INFO - 	* Building model...
+2020-12-01 01:34:35,526 - INFO - 
+====================Training model on device: 0====================
+2020-12-01 01:34:35,527 - INFO - * Training epoch 1:
+2020-12-01 02:37:55,887 - INFO - Training epoch: 1, time: 3800.3592s, loss: 0.6538, accuracy: 71.9336%
+
+2020-12-01 02:37:55,888 - INFO - * Validation for epoch 1:
+2020-12-01 02:40:40,487 - INFO - Validing epoch: 1, time: 164.5961s, loss: 0.4332, accuracy: 83.5094%
+
+2020-12-01 02:40:46,485 - INFO - * Training epoch 2:
+2020-12-01 03:44:07,078 - INFO - Training epoch: 2, time: 3800.5901s, loss: 0.4525, accuracy: 82.4686%
+
+2020-12-01 03:44:07,079 - INFO - * Validation for epoch 2:
+2020-12-01 03:46:51,928 - INFO - Validing epoch: 2, time: 164.8481s, loss: 0.3719, accuracy: 86.2325%
+
+2020-12-01 03:46:58,025 - INFO - * Training epoch 3:
+2020-12-01 04:50:17,997 - INFO - Training epoch: 3, time: 3799.9683s, loss: 0.3947, accuracy: 84.9514%
+
+2020-12-01 04:50:17,998 - INFO - * Validation for epoch 3:
+2020-12-01 04:53:02,315 - INFO - Validing epoch: 3, time: 164.3144s, loss: 0.3490, accuracy: 86.8015%
+
+2020-12-01 04:53:08,152 - INFO - * Training epoch 4:
+2020-12-01 05:56:29,300 - INFO - Training epoch: 4, time: 3801.1473s, loss: 0.3575, accuracy: 86.5977%
+
+2020-12-01 05:56:29,301 - INFO - * Validation for epoch 4:
+2020-12-01 05:59:13,673 - INFO - Validing epoch: 4, time: 164.3709s, loss: 0.3427, accuracy: 87.3400%
+
+2020-12-01 05:59:19,500 - INFO - * Training epoch 5:
+2020-12-01 07:02:38,843 - INFO - Training epoch: 5, time: 3799.3415s, loss: 0.3206, accuracy: 88.0750%
+
+2020-12-01 07:02:38,844 - INFO - * Validation for epoch 5:
+2020-12-01 07:05:23,341 - INFO - Validing epoch: 5, time: 164.4951s, loss: 0.3388, accuracy: 87.6448%
+
+2020-12-01 07:05:29,645 - INFO - * Training epoch 6:
+2020-12-01 08:08:48,357 - INFO - Training epoch: 6, time: 3798.7087s, loss: 0.2933, accuracy: 89.2320%
+
+2020-12-01 08:08:48,358 - INFO - * Validation for epoch 6:
+2020-12-01 08:11:32,855 - INFO - Validing epoch: 6, time: 164.4947s, loss: 0.3624, accuracy: 87.3400%
+
+2020-12-01 08:11:32,856 - INFO - * Training epoch 7:
+2020-12-01 09:14:55,911 - INFO - Training epoch: 7, time: 3803.0528s, loss: 0.2403, accuracy: 91.3799%
+
+2020-12-01 09:14:55,912 - INFO - * Validation for epoch 7:
+2020-12-01 09:17:40,473 - INFO - Validing epoch: 7, time: 164.5590s, loss: 0.3558, accuracy: 88.0106%
+
+2020-12-01 09:17:46,244 - INFO - * Training epoch 8:
+2020-12-01 10:21:08,176 - INFO - Training epoch: 8, time: 3801.9300s, loss: 0.2135, accuracy: 92.3883%
+
+2020-12-01 10:21:08,176 - INFO - * Validation for epoch 8:
+2020-12-01 10:23:52,744 - INFO - Validing epoch: 8, time: 164.5653s, loss: 0.3726, accuracy: 88.0410%
+
+2020-12-01 10:23:58,540 - INFO - * Training epoch 9:
+2020-12-01 11:27:18,168 - INFO - Training epoch: 9, time: 3799.6254s, loss: 0.1956, accuracy: 93.1456%
+
+2020-12-01 11:27:18,169 - INFO - * Validation for epoch 9:
+2020-12-01 11:30:02,757 - INFO - Validing epoch: 9, time: 164.5858s, loss: 0.3729, accuracy: 87.9598%
+
+2020-12-01 11:30:02,758 - INFO - * Training epoch 10:
+2020-12-01 12:47:33,548 - INFO - Training epoch: 10, time: 4650.7891s, loss: 0.1637, accuracy: 94.3535%
+
+2020-12-01 12:47:33,549 - INFO - * Validation for epoch 10:
+2020-12-01 12:50:18,177 - INFO - Validing epoch: 10, time: 164.6255s, loss: 0.4132, accuracy: 88.0919%
+
+2020-12-01 12:50:23,856 - INFO - * Training epoch 11:
+2020-12-01 15:15:10,017 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, load_from='checkpoint/max_avg_max_avg/best.pth.tar', local_rank=-1, lr=0.0004, max_gradient_norm=10.0, model='bert', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/bert', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/dev_data.pkl')[0m
+2020-12-01 15:15:18,290 - INFO - ==================== Preparing for training ====================
+2020-12-01 15:15:18,290 - INFO - 	* Loading training data...
+2020-12-01 15:15:32,263 - INFO - 	* Loading validation data...
+2020-12-01 15:15:32,579 - INFO - 	* Building model...
+2020-12-01 15:15:59,529 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, load_from='checkpoint/max_avg_max_avg/best.pth.tar', local_rank=-1, lr=0.0004, max_gradient_norm=10.0, model='bert', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/bert', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/dev_data.pkl')[0m
+2020-12-01 15:16:05,533 - INFO - ==================== Preparing for training ====================
+2020-12-01 15:16:05,534 - INFO - 	* Loading training data...
+2020-12-01 15:16:20,056 - INFO - 	* Loading validation data...
+2020-12-01 15:16:20,489 - INFO - 	* Building model...
+2020-12-01 15:16:22,893 - INFO - 	* Loading model from checkpoint/max_avg_max_avg/best.pth.tar
+2020-12-01 15:22:21,149 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, load_from='checkpoint/max_avg_max_avg/best.pth.tar', local_rank=-1, lr=0.0004, max_gradient_norm=10.0, model='bert', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/bert', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/dev_data.pkl')[0m
+2020-12-01 15:22:29,091 - INFO - ==================== Preparing for training ====================
+2020-12-01 15:22:29,096 - INFO - 	* Loading training data...
+2020-12-01 15:22:42,932 - INFO - 	* Loading validation data...
+2020-12-01 15:22:43,373 - INFO - 	* Building model...
+2020-12-01 15:28:36,679 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, load_from='checkpoint/max_avg_max_avg/best.pth.tar', local_rank=0, lr=0.0004, max_gradient_norm=10.0, model='xlnet', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/xlnet', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/xlnet/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/xlnet/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/xlnet/base/dev_data.pkl')[0m
+2020-12-01 15:28:43,534 - INFO - ==================== Preparing for training ====================
+2020-12-01 15:28:43,535 - INFO - 	* Loading training data...
+2020-12-01 15:28:59,918 - INFO - 	* Loading validation data...
+2020-12-01 15:29:00,291 - INFO - 	* Building model...
+2020-12-01 15:29:24,471 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, load_from=None, local_rank=0, lr=0.0004, max_gradient_norm=10.0, model='xlnet', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/xlnet', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/xlnet/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/xlnet/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/xlnet/base/dev_data.pkl')[0m
+2020-12-01 15:29:30,450 - INFO - ==================== Preparing for training ====================
+2020-12-01 15:29:30,450 - INFO - 	* Loading training data...
+2020-12-01 15:29:46,951 - INFO - 	* Loading validation data...
+2020-12-01 15:29:47,322 - INFO - 	* Building model...
+2020-12-01 15:29:51,054 - INFO - 
+====================Training model on device: 0====================
+2020-12-01 15:29:51,054 - INFO - * Training epoch 1:
+2020-12-01 15:31:09,198 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, local_rank=0, lr=0.0004, max_gradient_norm=10.0, model='xlnet', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/xlnet', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/xlnet/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/xlnet/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/xlnet/base/dev_data.pkl')[0m
+2020-12-01 15:31:16,222 - INFO - ==================== Preparing for training ====================
+2020-12-01 15:31:16,222 - INFO - 	* Loading training data...
+2020-12-01 15:31:32,187 - INFO - 	* Loading validation data...
+2020-12-01 15:31:32,567 - INFO - 	* Building model...
+2020-12-01 15:31:36,078 - INFO - 
+====================Training model on device: 0====================
+2020-12-01 15:31:36,079 - INFO - * Training epoch 1:
+2020-12-01 15:32:34,465 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, local_rank=0, lr=0.0004, max_gradient_norm=10.0, model='roberta', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/roberta', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/roberta/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/roberta/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/roberta/base/dev_data.pkl')[0m
+2020-12-01 15:32:42,758 - INFO - ==================== Preparing for training ====================
+2020-12-01 15:32:42,758 - INFO - 	* Loading training data...
+2020-12-01 15:32:59,034 - INFO - 	* Loading validation data...
+2020-12-01 15:32:59,404 - INFO - 	* Building model...
+2020-12-01 15:33:02,927 - INFO - 
+====================Training model on device: 0====================
+2020-12-01 15:33:02,928 - INFO - * Training epoch 1:
+2020-12-01 15:33:39,432 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, local_rank=0, lr=0.0004, max_gradient_norm=10.0, model='spanbert', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/spanbert', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/spanbert/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/spanbert/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/spanbert/base/dev_data.pkl')[0m
+2020-12-01 15:33:45,344 - INFO - ==================== Preparing for training ====================
+2020-12-01 15:33:45,642 - INFO - 	* Loading training data...
+2020-12-01 15:34:00,966 - INFO - 	* Loading validation data...
+2020-12-01 15:34:01,325 - INFO - 	* Building model...
+2020-12-01 15:34:08,960 - INFO - 
+====================Training model on device: 0====================
+2020-12-01 15:34:08,960 - INFO - * Training epoch 1:
+2020-12-01 15:35:55,007 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, local_rank=0, lr=0.0004, max_gradient_norm=10.0, model='xlnet', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/xlnet', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/xlnet/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/xlnet/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/xlnet/base/dev_data.pkl')[0m
+2020-12-01 15:36:01,098 - INFO - ==================== Preparing for training ====================
+2020-12-01 15:36:01,118 - INFO - 	* Loading training data...
+2020-12-01 15:36:17,553 - INFO - 	* Loading validation data...
+2020-12-01 15:36:17,898 - INFO - 	* Building model...
+2020-12-01 15:36:21,466 - INFO - 
+====================Training model on device: 0====================
+2020-12-01 15:36:21,467 - INFO - * Training epoch 1:
+2020-12-01 17:02:12,601 - INFO - Training epoch: 1, time: 5151.1326s, loss: 0.7530, accuracy: 66.4218%
+
+2020-12-01 17:02:12,601 - INFO - * Validation for epoch 1:
+2020-12-01 17:06:09,611 - INFO - Validing epoch: 1, time: 237.0091s, loss: 0.4697, accuracy: 81.7517%
+
+2020-12-01 17:06:15,823 - INFO - * Training epoch 2:
+2020-12-01 18:32:13,729 - INFO - Training epoch: 2, time: 5157.9032s, loss: 0.4846, accuracy: 81.0531%
+
+2020-12-01 18:32:13,729 - INFO - * Validation for epoch 2:
+2020-12-01 18:36:11,347 - INFO - Validing epoch: 2, time: 237.6170s, loss: 0.3867, accuracy: 85.1047%
+
+2020-12-01 18:36:18,581 - INFO - * Training epoch 3:
+2020-12-01 20:02:16,550 - INFO - Training epoch: 3, time: 5157.9665s, loss: 0.4237, accuracy: 83.7362%
+
+2020-12-01 20:02:16,550 - INFO - * Validation for epoch 3:
+2020-12-01 20:06:13,037 - INFO - Validing epoch: 3, time: 236.4865s, loss: 0.3687, accuracy: 85.9175%
+
+2020-12-01 20:06:19,839 - INFO - * Training epoch 4:
+2020-12-01 21:32:21,892 - INFO - Training epoch: 4, time: 5162.0463s, loss: 0.3936, accuracy: 85.1000%
+
+2020-12-01 21:32:21,893 - INFO - * Validation for epoch 4:
+2020-12-01 21:36:18,858 - INFO - Validing epoch: 4, time: 236.9642s, loss: 0.3440, accuracy: 86.8015%
+
+2020-12-01 21:36:25,419 - INFO - * Training epoch 5:
+2020-12-01 23:02:20,347 - INFO - Training epoch: 5, time: 5154.9265s, loss: 0.3637, accuracy: 86.3283%
+
+2020-12-01 23:02:20,348 - INFO - * Validation for epoch 5:
+2020-12-01 23:06:16,789 - INFO - Validing epoch: 5, time: 236.4409s, loss: 0.3424, accuracy: 87.3197%
+
+2020-12-01 23:06:23,034 - INFO - * Training epoch 6:
+2020-12-02 00:18:07,421 - INFO - Training epoch: 6, time: 4304.3843s, loss: 0.3434, accuracy: 87.0943%
+
+2020-12-02 00:18:07,422 - INFO - * Validation for epoch 6:
+2020-12-02 00:22:04,289 - INFO - Validing epoch: 6, time: 236.8660s, loss: 0.3482, accuracy: 86.9844%
+
+2020-12-02 00:22:04,290 - INFO - * Training epoch 7:
+2020-12-02 01:47:44,635 - INFO - Training epoch: 7, time: 5140.3445s, loss: 0.3054, accuracy: 88.6495%
+
+2020-12-02 01:47:44,636 - INFO - * Validation for epoch 7:
+2020-12-02 01:51:40,475 - INFO - Validing epoch: 7, time: 235.8387s, loss: 0.3237, accuracy: 88.2646%
+
+2020-12-02 01:51:46,413 - INFO - * Training epoch 8:
+2020-12-02 03:17:23,002 - INFO - Training epoch: 8, time: 5136.5865s, loss: 0.2871, accuracy: 89.3936%
+
+2020-12-02 03:17:23,002 - INFO - * Validation for epoch 8:
+2020-12-02 03:21:18,511 - INFO - Validing epoch: 8, time: 235.5079s, loss: 0.3280, accuracy: 88.4271%
+
+2020-12-02 03:21:24,601 - INFO - * Training epoch 9:
+2020-12-02 04:47:00,697 - INFO - Training epoch: 9, time: 5136.0942s, loss: 0.2717, accuracy: 90.0315%
+
+2020-12-02 04:47:00,698 - INFO - * Validation for epoch 9:
+2020-12-02 04:50:56,597 - INFO - Validing epoch: 9, time: 235.8980s, loss: 0.3243, accuracy: 88.6202%
+
+2020-12-02 04:51:03,287 - INFO - * Training epoch 10:
+2020-12-02 06:16:42,303 - INFO - Training epoch: 10, time: 5139.0134s, loss: 0.2567, accuracy: 90.6358%
+
+2020-12-02 06:16:42,303 - INFO - * Validation for epoch 10:
+2020-12-02 06:20:38,188 - INFO - Validing epoch: 10, time: 235.8845s, loss: 0.3308, accuracy: 88.6202%
+
+2020-12-02 06:20:38,189 - INFO - * Training epoch 11:
+2020-12-02 07:46:15,286 - INFO - Training epoch: 11, time: 5137.0952s, loss: 0.2338, accuracy: 91.4993%
+
+2020-12-02 07:46:15,287 - INFO - * Validation for epoch 11:
+2020-12-02 07:50:10,989 - INFO - Validing epoch: 11, time: 235.7020s, loss: 0.3362, accuracy: 88.7929%
+
+2020-12-02 07:50:17,022 - INFO - * Training epoch 12:
+2020-12-02 09:15:50,839 - INFO - Training epoch: 12, time: 5133.8144s, loss: 0.2238, accuracy: 91.9136%
+
+2020-12-02 09:15:50,840 - INFO - * Validation for epoch 12:
+2020-12-02 09:19:46,197 - INFO - Validing epoch: 12, time: 235.3545s, loss: 0.3456, accuracy: 88.5084%
+
+2020-12-02 09:19:46,197 - INFO - * Training epoch 13:
+2020-12-02 10:47:13,572 - INFO - Training epoch: 13, time: 5247.3734s, loss: 0.2098, accuracy: 92.4400%
+
+2020-12-02 10:47:13,613 - INFO - * Validation for epoch 13:
+2020-12-02 10:53:28,723 - INFO - Validing epoch: 13, time: 375.1096s, loss: 0.3494, accuracy: 88.4678%
+
+2020-12-02 10:53:28,724 - INFO - * Training epoch 14:
+2020-12-02 13:22:24,065 - INFO - Training epoch: 14, time: 8935.3401s, loss: 0.1995, accuracy: 92.8267%
+
+2020-12-02 13:22:24,066 - INFO - * Validation for epoch 14:
+2020-12-02 13:28:55,483 - INFO - Validing epoch: 14, time: 391.4163s, loss: 0.3633, accuracy: 88.5389%
+
+2020-12-02 13:28:55,484 - INFO - -> Early stopping: patience limit reached, stopping...
+2020-12-02 13:29:22,280 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, local_rank=0, lr=0.0004, max_gradient_norm=10.0, model='roberta', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/roberta', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/roberta/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/roberta/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/roberta/base/dev_data.pkl')[0m
+2020-12-02 13:29:31,616 - INFO - ==================== Preparing for training ====================
+2020-12-02 13:29:31,617 - INFO - 	* Loading training data...
+2020-12-02 13:29:48,029 - INFO - 	* Loading validation data...
+2020-12-02 13:29:48,425 - INFO - 	* Building model...
+2020-12-02 13:29:53,213 - INFO - 
+====================Training model on device: 0====================
+2020-12-02 13:29:53,214 - INFO - * Training epoch 1:
+2020-12-02 15:26:57,507 - INFO - Training epoch: 1, time: 7024.2913s, loss: 0.7223, accuracy: 68.2217%
+
+2020-12-02 15:26:57,568 - INFO - * Validation for epoch 1:
+2020-12-02 15:31:40,642 - INFO - Validing epoch: 1, time: 283.0719s, loss: 0.4485, accuracy: 82.4731%
+
+2020-12-02 15:31:47,901 - INFO - * Training epoch 2:
+2020-12-02 17:28:49,870 - INFO - Training epoch: 2, time: 7021.9647s, loss: 0.4616, accuracy: 82.0761%
+
+2020-12-02 17:28:49,871 - INFO - * Validation for epoch 2:
+2020-12-02 17:33:33,233 - INFO - Validing epoch: 2, time: 283.3609s, loss: 0.3760, accuracy: 85.3688%
+
+2020-12-02 17:33:44,973 - INFO - * Training epoch 3:
+2020-12-02 19:32:16,991 - INFO - Training epoch: 3, time: 7112.0156s, loss: 0.3961, accuracy: 84.9412%
+
+2020-12-02 19:32:16,998 - INFO - * Validation for epoch 3:
+2020-12-02 19:36:59,526 - INFO - Validing epoch: 3, time: 282.5270s, loss: 0.3436, accuracy: 86.8523%
+
+2020-12-02 19:37:06,368 - INFO - * Training epoch 4:
+2020-12-02 21:46:55,779 - INFO - Training epoch: 4, time: 7789.4015s, loss: 0.3591, accuracy: 86.5970%
+
+2020-12-02 21:46:55,795 - INFO - * Validation for epoch 4:
+2020-12-02 21:51:38,843 - INFO - Validing epoch: 4, time: 283.0471s, loss: 0.3315, accuracy: 87.6651%
+
+2020-12-02 21:51:45,846 - INFO - * Training epoch 5:
+2020-12-03 00:04:24,018 - INFO - Training epoch: 5, time: 7958.1697s, loss: 0.3209, accuracy: 88.0481%
+
+2020-12-03 00:04:24,019 - INFO - * Validation for epoch 5:
+2020-12-03 00:09:06,756 - INFO - Validing epoch: 5, time: 282.7363s, loss: 0.3263, accuracy: 88.0817%
+
+2020-12-03 00:09:13,406 - INFO - * Training epoch 6:
+2020-12-03 02:06:16,819 - INFO - Training epoch: 6, time: 7023.4080s, loss: 0.2912, accuracy: 89.3128%
+
+2020-12-03 02:06:16,819 - INFO - * Validation for epoch 6:
+2020-12-03 02:11:00,402 - INFO - Validing epoch: 6, time: 283.5821s, loss: 0.3328, accuracy: 87.8175%
+
+2020-12-03 02:11:00,403 - INFO - * Training epoch 7:
+2020-12-03 04:07:49,831 - INFO - Training epoch: 7, time: 7009.4249s, loss: 0.2422, accuracy: 91.2387%
+
+2020-12-03 04:07:49,831 - INFO - * Validation for epoch 7:
+2020-12-03 04:12:33,023 - INFO - Validing epoch: 7, time: 283.1908s, loss: 0.3315, accuracy: 88.2341%
+
+2020-12-03 04:12:39,335 - INFO - * Training epoch 8:
+2020-12-03 06:09:42,274 - INFO - Training epoch: 8, time: 7022.9353s, loss: 0.2157, accuracy: 92.2704%
+
+2020-12-03 06:09:42,275 - INFO - * Validation for epoch 8:
+2020-12-03 06:14:26,007 - INFO - Validing epoch: 8, time: 283.7303s, loss: 0.3429, accuracy: 88.8031%
+
+2020-12-03 06:14:35,164 - INFO - * Training epoch 9:
+2020-12-03 08:11:25,463 - INFO - Training epoch: 9, time: 7010.2897s, loss: 0.1939, accuracy: 93.1266%
+
+2020-12-03 08:11:25,464 - INFO - * Validation for epoch 9:
+2020-12-03 08:16:08,371 - INFO - Validing epoch: 9, time: 282.9067s, loss: 0.3483, accuracy: 88.4373%
+
+2020-12-03 08:16:08,372 - INFO - * Training epoch 10:
+2020-12-03 09:38:07,799 - INFO - Training epoch: 10, time: 4919.4253s, loss: 0.1651, accuracy: 94.2297%
+
+2020-12-03 09:38:07,799 - INFO - * Validation for epoch 10:
+2020-12-03 09:40:47,515 - INFO - Validing epoch: 10, time: 159.7152s, loss: 0.3766, accuracy: 88.2138%
+
+2020-12-03 09:40:47,516 - INFO - * Training epoch 11:
+2020-12-03 10:43:51,354 - INFO - Training epoch: 11, time: 3783.8357s, loss: 0.1469, accuracy: 94.9513%
+
+2020-12-03 10:43:51,354 - INFO - * Validation for epoch 11:
+2020-12-03 10:46:31,692 - INFO - Validing epoch: 11, time: 160.3371s, loss: 0.4002, accuracy: 88.2443%
+
+2020-12-03 10:46:31,763 - INFO - -> Early stopping: patience limit reached, stopping...
+2020-12-03 10:47:04,325 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, local_rank=0, lr=0.0004, max_gradient_norm=10.0, model='spanbert', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/spanbert', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/spanbert/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/spanbert/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/spanbert/base/dev_data.pkl')[0m
+2020-12-03 10:47:14,438 - INFO - ==================== Preparing for training ====================
+2020-12-03 10:47:14,439 - INFO - 	* Loading training data...
+2020-12-03 10:47:30,714 - INFO - 	* Loading validation data...
+2020-12-03 10:47:31,188 - INFO - 	* Building model...
+2020-12-03 10:47:34,720 - INFO - 
+====================Training model on device: 0====================
+2020-12-03 10:47:34,720 - INFO - * Training epoch 1:
+2020-12-03 11:51:35,782 - INFO - Training epoch: 1, time: 3841.0603s, loss: 0.6437, accuracy: 72.5539%
+
+2020-12-03 11:51:35,783 - INFO - * Validation for epoch 1:
+2020-12-03 11:54:22,846 - INFO - Validing epoch: 1, time: 167.0615s, loss: 0.4202, accuracy: 83.6212%
+
+2020-12-03 11:54:28,622 - INFO - * Training epoch 2:
+2020-12-03 13:03:38,996 - INFO - Training epoch: 2, time: 4150.3701s, loss: 0.4364, accuracy: 83.1676%
+
+2020-12-03 13:03:38,996 - INFO - * Validation for epoch 2:
+2020-12-03 13:06:25,998 - INFO - Validing epoch: 2, time: 167.0007s, loss: 0.3595, accuracy: 86.5983%
+
+2020-12-03 13:06:31,737 - INFO - * Training epoch 3:
+2020-12-03 14:25:25,894 - INFO - Training epoch: 3, time: 4734.1556s, loss: 0.3794, accuracy: 85.6184%
+
+2020-12-03 14:25:25,900 - INFO - * Validation for epoch 3:
+2020-12-03 14:30:17,029 - INFO - Validing epoch: 3, time: 291.1270s, loss: 0.3418, accuracy: 87.2282%
+
+2020-12-03 14:30:23,596 - INFO - * Training epoch 4:
+2020-12-03 16:30:48,350 - INFO - Training epoch: 4, time: 7224.7515s, loss: 0.3429, accuracy: 87.1977%
+
+2020-12-03 16:30:48,351 - INFO - * Validation for epoch 4:
+2020-12-03 16:38:01,965 - INFO - Validing epoch: 4, time: 433.6112s, loss: 0.3307, accuracy: 87.6956%
+
+2020-12-03 16:38:13,455 - INFO - * Training epoch 5:
+2020-12-03 18:48:45,690 - INFO - Training epoch: 5, time: 7832.2009s, loss: 0.3047, accuracy: 88.7449%
+
+2020-12-03 18:48:45,691 - INFO - * Validation for epoch 5:
+2020-12-03 18:51:32,953 - INFO - Validing epoch: 5, time: 167.2594s, loss: 0.3266, accuracy: 88.0410%
+
+2020-12-03 18:51:38,933 - INFO - * Training epoch 6:
+2020-12-03 20:20:48,280 - INFO - Training epoch: 6, time: 5349.3437s, loss: 0.2744, accuracy: 89.9404%
+
+2020-12-03 20:20:48,281 - INFO - * Validation for epoch 6:
+2020-12-03 20:24:34,622 - INFO - Validing epoch: 6, time: 226.3398s, loss: 0.3407, accuracy: 87.8378%
+
+2020-12-03 20:24:34,909 - INFO - * Training epoch 7:
+2020-12-03 22:01:21,238 - INFO - Training epoch: 7, time: 5806.3266s, loss: 0.2205, accuracy: 92.1939%
+
+2020-12-03 22:01:21,254 - INFO - * Validation for epoch 7:
+2020-12-03 22:06:20,252 - INFO - Validing epoch: 7, time: 298.9954s, loss: 0.3515, accuracy: 88.5592%
+
+2020-12-03 22:06:26,329 - INFO - * Training epoch 8:
+2020-12-03 23:25:54,238 - INFO - Training epoch: 8, time: 4767.9062s, loss: 0.1923, accuracy: 93.2322%
+
+2020-12-03 23:25:54,239 - INFO - * Validation for epoch 8:
+2020-12-03 23:28:41,250 - INFO - Validing epoch: 8, time: 167.0104s, loss: 0.3651, accuracy: 88.4678%
+
+2020-12-03 23:28:41,251 - INFO - * Training epoch 9:
+2020-12-04 00:32:41,544 - INFO - Training epoch: 9, time: 3840.2921s, loss: 0.1574, accuracy: 94.6775%
+
+2020-12-04 00:32:41,544 - INFO - * Validation for epoch 9:
+2020-12-04 00:35:28,439 - INFO - Validing epoch: 9, time: 166.8936s, loss: 0.3881, accuracy: 88.3052%
+
+2020-12-04 00:35:28,440 - INFO - * Training epoch 10:
+2020-12-04 01:39:27,011 - INFO - Training epoch: 10, time: 3838.5699s, loss: 0.1381, accuracy: 95.3095%
+
+2020-12-04 01:39:27,011 - INFO - * Validation for epoch 10:
+2020-12-04 01:42:13,787 - INFO - Validing epoch: 10, time: 166.7745s, loss: 0.4176, accuracy: 88.2951%
+
+2020-12-04 01:42:13,788 - INFO - -> Early stopping: patience limit reached, stopping...
+2020-12-04 01:42:31,037 - INFO - [31mNamespace(batch_size=32, checkpoint_path='checkpoint', data_dir='/home/ywzhang/xsy/data/snli_1.0', dropout=0.4, epochs=100, fine_tune=False, hidden_size=450, local_rank=0, lr=0.0004, max_gradient_norm=10.0, model='bert', model_size='base', multimodel=False, num_classes=3, num_layer=1, patience=3, pooling_filename='max_avg_max_avg', pooling_method=['max', 'avg', 'max', 'avg'], save_path='checkpoint/bert', seed=0, test_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/test_data.pkl', train_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/train_data.pkl', valid_data='/home/ywzhang/xsy/data/snli_1.0/bert/base/dev_data.pkl')[0m
+2020-12-04 01:42:40,737 - INFO - ==================== Preparing for training ====================
+2020-12-04 01:42:40,738 - INFO - 	* Loading training data...
+2020-12-04 01:42:57,618 - INFO - 	* Loading validation data...
+2020-12-04 01:42:58,078 - INFO - 	* Building model...
+2020-12-04 01:43:05,688 - INFO - 
+====================Training model on device: 0====================
+2020-12-04 01:43:05,688 - INFO - * Training epoch 1:
+2020-12-04 02:46:17,126 - INFO - Training epoch: 1, time: 3791.4356s, loss: 0.6538, accuracy: 71.9336%
+
+2020-12-04 02:46:17,127 - INFO - * Validation for epoch 1:
+2020-12-04 02:49:01,889 - INFO - Validing epoch: 1, time: 164.7608s, loss: 0.4332, accuracy: 83.5094%
+
+2020-12-04 02:49:07,334 - INFO - * Training epoch 2:
+2020-12-04 03:52:19,475 - INFO - Training epoch: 2, time: 3792.1387s, loss: 0.4525, accuracy: 82.4686%
+
+2020-12-04 03:52:19,476 - INFO - * Validation for epoch 2:
+2020-12-04 03:55:03,901 - INFO - Validing epoch: 2, time: 164.4233s, loss: 0.3719, accuracy: 86.2325%
+
+2020-12-04 03:55:10,036 - INFO - * Training epoch 3:
+2020-12-04 04:58:21,704 - INFO - Training epoch: 3, time: 3791.6645s, loss: 0.3947, accuracy: 84.9514%
+
+2020-12-04 04:58:21,704 - INFO - * Validation for epoch 3:
+2020-12-04 05:01:06,490 - INFO - Validing epoch: 3, time: 164.7843s, loss: 0.3490, accuracy: 86.8015%
+
+2020-12-04 05:01:12,655 - INFO - * Training epoch 4:
+2020-12-04 06:04:23,752 - INFO - Training epoch: 4, time: 3791.0940s, loss: 0.3575, accuracy: 86.5977%
+
+2020-12-04 06:04:23,753 - INFO - * Validation for epoch 4:
+2020-12-04 06:07:08,338 - INFO - Validing epoch: 4, time: 164.5827s, loss: 0.3427, accuracy: 87.3400%
+
+2020-12-04 06:07:14,367 - INFO - * Training epoch 5:
+2020-12-04 07:10:23,561 - INFO - Training epoch: 5, time: 3789.1898s, loss: 0.3206, accuracy: 88.0750%
+
+2020-12-04 07:10:23,562 - INFO - * Validation for epoch 5:
+2020-12-04 07:13:08,548 - INFO - Validing epoch: 5, time: 164.9832s, loss: 0.3388, accuracy: 87.6448%
+
+2020-12-04 07:13:14,253 - INFO - * Training epoch 6:
+2020-12-04 08:16:22,754 - INFO - Training epoch: 6, time: 3788.4970s, loss: 0.2933, accuracy: 89.2320%
+
+2020-12-04 08:16:22,755 - INFO - * Validation for epoch 6:
+2020-12-04 08:19:07,362 - INFO - Validing epoch: 6, time: 164.6059s, loss: 0.3624, accuracy: 87.3400%
+
+2020-12-04 08:19:07,362 - INFO - * Training epoch 7:
+2020-12-04 09:34:01,379 - INFO - Training epoch: 7, time: 4494.0154s, loss: 0.2403, accuracy: 91.3799%
+
+2020-12-04 09:34:01,384 - INFO - * Validation for epoch 7:
+2020-12-04 09:36:46,181 - INFO - Validing epoch: 7, time: 164.7942s, loss: 0.3558, accuracy: 88.0106%
+
+2020-12-04 09:36:52,228 - INFO - * Training epoch 8:
+2020-12-04 11:06:23,029 - INFO - Training epoch: 8, time: 5370.7975s, loss: 0.2135, accuracy: 92.3883%
+
+2020-12-04 11:06:23,030 - INFO - * Validation for epoch 8:
+2020-12-04 11:09:08,168 - INFO - Validing epoch: 8, time: 165.1350s, loss: 0.3726, accuracy: 88.0410%
+
+2020-12-04 11:09:14,388 - INFO - * Training epoch 9:
